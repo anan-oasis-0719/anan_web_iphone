@@ -6,7 +6,7 @@ body{
     background: #C7C4A5;
     height: 100vh;
     position: relative;
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Special Elite', cursive;
 }
 
 .top{
@@ -25,7 +25,7 @@ p{
     display: block;
     text-decoration: none;
     color: darkslategray;
-    width: 185px;
+    width: 200px;
     font-size: 23px;
 }
 
