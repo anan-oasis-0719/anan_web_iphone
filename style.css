@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: #C7C4A5;
+    height: 100vh;
+    position: relative;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.top{
+    width: 100%;
+    border-bottom: 5px dashed black;
+}
+
+p{
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.band{
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: darkslategray;
+    width: 140px;
+    font-size: 17px;
+}
+
+h1{
+    font-size:50px;
+    color: black;
+    text-align: center; 
+}
+
+.main{
+    widows: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+h2{
+    font-size:35px;
+    color: black;
+    text-align: left;
+}
+
+.band-info{
+    margin-top: 30px;
+}
+
+.live{
+   margin-top: 30px;
+    display: block;
+    text-decoration: none;
+    color: darkslategray;
+    font-size: 17px; 
+}
+
+.link{
+    margin-top: 10px;
+    display: block;
+    width: 87px;
+    text-decoration: none;
+    color: darkslategray;
+    font-size: 17px;
+}
