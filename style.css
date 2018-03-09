@@ -1,38 +1,102 @@
-*{
+* {
     margin: 0;
 }
 
-body{
+body {
     background: #C7C4A5;
     height: 100vh;
     position: relative;
     font-family: 'Special Elite', cursive;
 }
 
-.top{
+@media screen and (min-width:0px) {
+    /*0px以上で適用する内容。Iphone版*/
+    .top {
+        width: 100%;
+        border-bottom: 5px dashed black;
+    }
+    p {
+        line-height: 30px;
+        margin-top: 5px;
+        font-size: 23px;
+    }
+    .band {
+        margin-top: 10px;
+        display: block;
+        text-decoration: none;
+        color: #445955;
+        width: 200px;
+    }
+    .mail {
+        color: black;
+        text-decoration: none;
+    }
+    h1 {
+        font-size: 50px;
+        color: black;
+        text-align: center;
+    }
+    .main {
+        widows: 100%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    h2 {
+        font-size: 35px;
+        color: black;
+        text-align: left;
+    }
+    .band-info {
+        margin-top: 30px;
+    }
+    .link {
+        margin-top: 10px;
+        display: block;
+        width: 87px;
+        text-decoration: none;
+        color: #445955;
+        font-size: 23px;
+    }
+    .live {
+        margin-top: 30px;
+        display: block;
+        text-decoration: none;
+        color: #445955;
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width:500px) {
+    /*600px以上で適用する内容*/
+    .top{
     width: 100%;
     border-bottom: 5px dashed black;
 }
 
 p{
     line-height: 30px;
-    margin-top: 5px;
-    font-size: 23px;
+    margin-top: 25px;
+    font-size: 30px;
 }
 
 .band{
     margin-top: 10px;
     display: block;
     text-decoration: none;
-    color: darkslategray;
+    color: #445955;
     width: 200px;
-    font-size: 23px;
+}
+
+.mail{
+    color: black;
+    text-decoration: none;
 }
 
 h1{
-    font-size:50px;
+    font-size:100px;
     color: black;
-    text-align: center; 
+    text-align: center;
+    margin-top: 15px;
 }
 
 .main{
@@ -42,7 +106,7 @@ h1{
 }
 
 h2{
-    font-size:35px;
+    font-size:50px;
     color: black;
     text-align: left;
 }
@@ -56,7 +120,7 @@ h2{
     display: block;
     width: 87px;
     text-decoration: none;
-    color: darkslategray;
+    color: #445955;
     font-size: 23px;
 }
 
@@ -64,6 +128,7 @@ h2{
    margin-top: 30px;
     display: block;
     text-decoration: none;
-    color: darkslategray;
-    font-size: 23px; 
+    color: #445955;
+    font-size: 23px;
+}
 }
