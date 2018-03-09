@@ -37,7 +37,7 @@ body {
 }
 
 
-.cs:activ {
+.cs:active {
     background: url(CS-hover.png) no-repeat 0 0;
     background-size: contain;
     width: 200px;
@@ -51,7 +51,7 @@ body {
     height: 70px;
 }
 
-.el:activ {
+.el:active {
     background: url(Elieelu35-hover.png) no-repeat 0 0;
     background-size: contain;
     width: 200px;
@@ -65,7 +65,7 @@ body {
     height: 70px;
 }
 
-.nny:activ {
+.nny:active {
     background: url(Nanka-hover.png) no-repeat 0 0;
     background-size: contain;
     width: 200px;
@@ -80,7 +80,7 @@ body {
     height: 70px;
 }
 
-.kz:activ {
+.kz:active {
     background: url(kazamito-hover.png) no-repeat 0 0;
     background-size: contain;
     width: 200px;
