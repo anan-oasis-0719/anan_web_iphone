@@ -27,6 +27,74 @@ body {
         color: #445955;
         width: 200px;
     }
+    
+
+.cs {
+    background: url(CS.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px;
+}
+
+
+.cs:activ {
+    background: url(CS-hover.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px;
+}
+
+.el {
+    background: url(Elieelu35.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px;
+}
+
+.el:activ {
+    background: url(Elieelu35-hover.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px; 
+}
+
+.nny {
+    background: url(Nanka.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px;
+}
+
+.nny:activ {
+    background: url(Nanka-hover.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px; 
+}
+
+
+.kz {
+    background: url(kazamito.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px;
+}
+
+.kz:activ {
+    background: url(kazamito-hover.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px; 
+}
+.band {
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: #445955;
+    width: 200px;
+    height: 70px;
+}
+    
     .mail {
         color: black;
         text-decoration: none;
@@ -73,18 +141,75 @@ body {
     border-bottom: 5px dashed black;
 }
 
-p{
+p {
     line-height: 30px;
     margin-top: 25px;
     font-size: 30px;
 }
 
-.band{
+.cs {
+    background: url(CS.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px;
+}
+
+.cs:hover {
+    background: url(CS-hover.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px; 
+}
+
+.el {
+    background: url(Elieelu35.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px;
+}
+
+.el:hover {
+    background: url(Elieelu35-hover.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px; 
+}
+
+.nny {
+    background: url(Nanka.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px;
+}
+
+.kz {
+    background: url(kazamito.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px;
+}
+
+.kz:hover {
+    background: url(kazamito-hover.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px; 
+}
+
+.nny:hover {
+    background: url(Nanka-hover.png) no-repeat 0 0;
+    background-size: contain;
+    width: 200px;
+    height: 70px; 
+}
+
+.band {
     margin-top: 10px;
     display: block;
     text-decoration: none;
     color: #445955;
     width: 200px;
+    height: 70px;
 }
 
 .mail{
